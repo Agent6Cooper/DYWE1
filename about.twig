@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="{{ siteUrl }}/css/stylesheet_about.css">
+   
+    <title>Home</title>
+</head>
+<body>
+    <nav>
+        
+        <img src="#logo">
+        <a href="home.twig"> Home </a>
+        <a href="news.twig">News</a>
+        <a href="reviews.twig"> Reviews </a>
+        <a href="interview.twig"> Interview </a>
+        <a href="about.twig"> About </a>
+       
+        <div class="social">
+<a href="http://www.facebook.de"><img src="../web/images/facebook.svg" class="socilogo"></a>
+<a href="http://www.twitter.de" ><img src="../web/images/twitter.svg" class="socilogo"></a>
+<a href="http://www.youtube.de"><img src="../web/images/youtube.svg" class="socilogo"></a>
+            
+        </div>
+    </nav>
+
+<section class="features">
+   <div class="features__image1"><img src="../web/images/facebook.svg"></div>
+    <div class="features__image2"><img src="../web/images/facebook.svg"></div>
+    
+    
+    </section>
+    <section class="features">
+   <div class="features__content"> <p>{{entry.text}}</p></div>
+    <div class="features__image"><img src="../web/images/facebook.svg"></div>
+    
+    
+    </section>
+    
+    <footer>
+    
+        <a class="foot"href="impressum.twig"> Impressum </a>
+        <a class="foot"href="kontakt.twig"> Kontakt </a>
+        <a class="foot"href="dsvgo.twig"> Datenschutzerklärung </a>
+        
+    </footer>
+    
+</body>
+</html>
