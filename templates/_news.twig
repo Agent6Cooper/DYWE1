@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="{{ siteUrl }}/css/stylesheet_news.css">
+   
+    <title>{{entry.title}}</title>
+</head>
+<body>
+      <nav>
+        
+         <a href="{{craft.entries.section('home').first.url}}">
+             <img src={{ url('images/facebook.svg') }} width="30px">      
+        </a>  
+        <a href="{{craft.entries.section('home').first.url}}"> Home </a>
+        <a href="{{craft.entries.section('news').first.url}}">News</a>
+        <a href="{{craft.entries.section('reviews').first.url}}"> Reviews </a>
+        <a href="{{craft.entries.section('interviews').first.url}}"> Interview </a>
+        <a href="{{craft.entries.section('about').first.url}}"> About </a>
+       
+        <div class="social">
+<a href="http://www.facebook.de"><img src={{ url('images/facebook.svg') }} class="socilogo"></a>
+<a href="http://www.twitter.de" ><img src={{ url('images/twitter.svg') }} class="socilogo"></a>
+<a href="http://www.youtube.de"><img src={{ url('images/youtube.svg') }} class="socilogo"></a>
+            
+        </div>
+    </nav>
+
+<section class="features">
+   <div class="features__news1"> <h2>{{entry.titel1}}</h2><p>{{entry.text}}</p></div>
+    <div class="features__news2"><h2>{{entry.titel2}}</h2><p> Moin ihr affen</p> </div>
+    
+    
+    </section>
+    <section class="features">
+   <div class="features__news1"> <h2>{{entry.titel3}}</h2><p></p></div>
+    <div class="features__news2"><h2>{{entry.titel4}}</h2><img src="../web/images/facebook.svg"></div>
+    
+    
+    </section>
+    <section class="features">
+   <div class="features__news1"> <h2>{{entry.titel5}}</h2><p></p></div>
+    <div class="features__news2"><h2>{{entry.titel6}}</h2><img src="../web/images/facebook.svg"></div>
+    
+    
+    </section>
+    <section class="features">
+   <div class="features__news1"> <h2>{{entry.titel7}}</h2><p></p></div>
+    <div class="features__news2"><h2>{{entry.titel8}}</h2><img src="../web/images/facebook.svg"></div>
+    
+    
+    </section>
+    <section class="features">
+   <div class="features__news1"> <h2>{{entry.titel9}}</h2><p></p></div>
+    <div class="features__news2"><h2>{{entry.titel10}}</h2><img src="../web/images/facebook.svg"></div>
+    
+    
+    </section>
+    
+    <footer>
+    
+        <a class="foot"href="impressum.twig"> Impressum </a>
+        <a class="foot"href="kontakt.twig"> Kontakt </a>
+        <a class="foot"href="dsvgo.twig"> Datenschutzerklärung </a>
+        
+    </footer>
+    
+</body>
+</html>

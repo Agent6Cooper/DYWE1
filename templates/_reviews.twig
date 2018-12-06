@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="{{ siteUrl }}/css/stylesheet_reviews.css">
+   
+    <title>{{entry.title}}</title>
+</head>
+<body>
+       <nav>
+        
+         <a href="{{craft.entries.section('home').first.url}}">
+             <img src={{ url('images/facebook.svg') }} width="30px">      
+        </a>  
+        <a href="{{craft.entries.section('home').first.url}}"> Home </a>
+        <a href="{{craft.entries.section('news').first.url}}">News</a>
+        <a href="{{craft.entries.section('reviews').first.url}}"> Reviews </a>
+        <a href="{{craft.entries.section('interviews').first.url}}"> Interview </a>
+        <a href="{{craft.entries.section('about').first.url}}"> About </a>
+       
+        <div class="social">
+<a href="http://www.facebook.de"><img src={{ url('images/facebook.svg') }} class="socilogo"></a>
+<a href="http://www.twitter.de" ><img src={{ url('images/twitter.svg') }} class="socilogo"></a>
+<a href="http://www.youtube.de"><img src={{ url('images/youtube.svg') }} class="socilogo"></a>
+            
+        </div>
+    </nav>
+
+<section class="row">
+    <div class="drittel"> <img src="{{ entry.images.one.getUrl('quadrat')}}"><h3></h3> </div>
+    <div class="drittel"> <img src="{{ entry.images.one.getUrl('quadrat')}}"> </div>
+    <div class="drittel"> <img src="{{ entry.images.one.getUrl('quadrat')}}"> </div>
+</section>
+    
+<section class="row">
+    <div class="drittel"> <img src="{{ entry.images.one.getUrl('quadrat')}}"> </div>
+    <div class="drittel"> <img src="{{ entry.images.one.getUrl('quadrat')}}"> </div>
+    <div class="drittel"> <img src="{{ entry.images.one.getUrl('quadrat')}}"> </div>
+</section>
+    
+<section class="row">
+    <div class="drittel"> <img src="{{ entry.images.one.getUrl('quadrat')}}"> </div>
+    <div class="drittel"> <img src="{{ entry.images.one.getUrl('quadrat')}}"> </div>
+    <div class="drittel"> <img src="{{ entry.images.one.getUrl('quadrat')}}"> </div>
+</section>
+    
+   <footer>
+    
+        <a class="foot"href="impressum.twig"> Impressum </a>
+        <a class="foot"href="kontakt.twig"> Kontakt </a>
+        <a class="foot"href="dsvgo.twig"> Datenschutzerklärung </a>
+        
+    </footer>
+    
+</body>
+</html>
